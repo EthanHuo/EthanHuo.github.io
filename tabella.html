@@ -1,47 +1,80 @@
 <h1>tabelle</h1>
 <p>table, tr (riga), td (colonna)</p>
 <table>
+  <th>
+     <td>
+       Intestazione colonna 1 
+     </td>
+  </th>
   <tr>
-    <td>valore riga 1, colonna 1</td>
-    <td>valore riga 1, colonna 2</td>
-    <td>valore riga 1, colonna 3</td>
-    <td>valore riga 1, colonna 4</td>
+    <td>
+      <p id="testo-rosso">Riga 1, colonna 1</p>
+    </td>
+    <td>
+      <p id="testo-arancione">Riga 1, colonna 2</p>
+    </td>
+    <td>
+      <p id="testo-giallo">Riga 1, colonna 3</p>
+    </td>
+    <td>
+      <p id="testo-verde">Riga 1, colonna 4</p>
+    </td>
   </tr>
+<tr>
+  <td>
+    <p id="testo-azzurro">Riga 2, colonna 1</p>
+  </td>
+  <td>
+      <p id="testo-blu">Riga 2, colonna 2</p>
+  </td>
+  <td>
+      <p id="testo-viola">Riga 2, colonna 3</p>
+  </td>
+  <td>
+      <p id="testo-indaco">Riga 2, colonna 4</p>
+  </td>
+</tr>
+<tr>
+  <td>
+    <p id="testo-rosso">Riga 3, colonna 1</p>
+  </td>
+  <td>
+      <p id="testo-arancione">Riga 3, colonna 2</p>
+  </td>
+  <td>
+      <p id="testo-giallo">Riga 3, colonna 3</p>
+  </td>
+  <td>
+      <p id="testo-verde">Riga 3, colonna 4</p>
+  </td>
+</tr>
   <tr>
-    <td>valore riga 2, colonna 1</td>
-    <td>valore riga 2, colonna 2</td>
-    <td>valore riga 2, colonna 3</td>
-    <td>valore riga 2, colonna 4</td>
-  </tr>
-  <tr>
-    <td>valore riga 3, colonna 1</td>
-    <td>valore riga 3, colonna 2</td>
-    <td>valore riga 3, colonna 3</td>
-    <td>valore riga 3, colonna 4</td>
-  </tr>
-  <tr>
-    <td>valore riga 4, colonna 1</td>
-    <td>valore riga 4, colonna 2</td>
-    <td>valore riga 4, colonna 3</td>
-    <td>valore riga 4, colonna 4</td>
-  </tr>
-</table>
-<br>
-<br>
-<h1>colori</h1>
-<h2>cascading style sheets (css)</h2>
-<p>red</p>
-<p id="gufo">brown</p>
-<p class="gufi">yellow</p>
-<style>
-  p {
-    color:'red';
-  }
-  #gufo {
-    color:'brown';
-  }
-  .gufi {
-    color:'yellow';
-  }
+  <td>
+    <p id="testo-azzurro">Riga 4, colonna 1</p>
+  </td>
+  <td>
+      <p id="testo-blu">Riga 4, colonna 2</p>
+  </td>
+  <td>
+      <p id="testo-viola">Riga 4, colonna 3</p>
+  </td>
+  <td>
+      <p id="testo-indaco">Riga 4, colonna 4</p>
+  </td>
+</tr>
 
-</style>
+<table>
+  <style>
+    table {
+      border-style: solid;
+      border-width: 1px;
+      border-color: black;
+      /* border-collapse: collapse; */
+    }
+    th, td {
+      border-style: dashed;
+      border-width: 1px;
+      border-color: blue;
+    }
+  </style>
+</table>
